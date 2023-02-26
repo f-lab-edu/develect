@@ -1,9 +1,9 @@
 ---
 name: Feature Request
 about: Feature Request
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 ## Issue Description <!-- 이슈에 대해서 설명해주세요. -->
