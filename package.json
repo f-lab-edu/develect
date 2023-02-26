@@ -9,6 +9,8 @@
     "lint": "next lint",
     "prettier:write": "prettier --write \"**/*.{ts,js,tsx,jsx,html,css,json,yaml,md}\"",
     "prettier:check": "prettier --check \"**/*.{ts,js,tsx,jsx,html,css,json,yaml,md}\"",
+    "lint:fix": "eslint \"**/*.{ts,js,tsx,jsx}\" --fix",
+    "lint:check": "eslint \"**/*.{ts,js,tsx,jsx}\"",
     "prepare": "husky install"
   },
   "dependencies": {
