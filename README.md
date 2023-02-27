@@ -1,5 +1,7 @@
 # Develect
 
+Dev+Elect
+
 개발자들이 관심있어할 주제를 선정해
 선택지를 제시하고 의견을 공유하는 서비스
 
@@ -18,7 +20,7 @@
 - React Query
 - Tailwind CSS
 - React Hook Form
-- Centry
+- Sentry
 
 ### Server
 
