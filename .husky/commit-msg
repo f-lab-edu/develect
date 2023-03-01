@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 브랜치 이름에 이슈 번호가 있다면 커밋 메시지 앞에 [#이슈 번호]를 추가합니다
+COMMIT_MSG_FILE=$1
+BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+ISSUE_NUMBER=$(echo ${BRANCH_NAME} | cut -d '/' -f2 | cut -d '_' -f1)
+
+if [[ $ISSUE_NUMBER =~ ^[0-9]+$ ]]; then
+  sed -i ".bak" "1s/^/[#$ISSUE_NUMBER] /" $COMMIT_MSG_FILE
+fi
