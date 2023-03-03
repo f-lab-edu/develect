@@ -10,7 +10,7 @@ Dev+Elect
 ### Basic
 
 - Node.js v18.12.1
-- NPM v8.19.2
+- Yarn berry v3.4.1
 - Typescript v4.9.5
 
 ### Frontend
