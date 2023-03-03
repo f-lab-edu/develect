@@ -30,6 +30,7 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "^13.2.1",
     "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
@@ -42,5 +43,6 @@
   "lint-staged": {
     "**/*.{ts,js,jsx,tsx,html,css,json,yaml,md}": "prettier --check",
     "**/*.{ts,js,tsx,jsx}": "eslint"
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }
