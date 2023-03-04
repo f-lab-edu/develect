@@ -35,7 +35,9 @@
     "@typescript-eslint/no-unused-vars": ["error"],
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/function-component-definition": "off",
+    "react/require-default-props": "off"
   },
   "settings": {
     "import/parsers": {
