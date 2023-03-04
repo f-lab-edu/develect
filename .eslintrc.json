@@ -20,7 +20,13 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": [".next/", "node_modules/", "next.config.js"],
+  "ignorePatterns": [
+    ".next/",
+    "node_modules/",
+    "next.config.js",
+    "postcss.config.js",
+    "tailwind.config.js"
+  ],
   "rules": {
     "import/prefer-default-export": "off",
     "no-console": "off",
