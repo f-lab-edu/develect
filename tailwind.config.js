@@ -5,6 +5,11 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        sm: '0px', // Mobile
+        md: '600px', // Tablet
+        lg: '1200px', // Desktop
+      },
       fontFamily: {
         sans: ['var(--font-pretendard)', ...fontFamily.sans],
       },
