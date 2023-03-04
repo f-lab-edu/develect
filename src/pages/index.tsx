@@ -3,7 +3,7 @@ import { BasicLayout } from '@/components/layouts/basic-layout'
 
 const Home: NextPage = () => (
   <BasicLayout>
-    <h1 className="text-xl font-bold">Hello World</h1>
+    <p className="heading-m font-bold">Hello World</p>
   </BasicLayout>
 )
 

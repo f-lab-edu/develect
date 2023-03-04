@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer typography {
+  .label-xs {
+    @apply text-[12px] leading-[16px];
+  }
+  .label-s {
+    @apply text-[14px] leading-[16px];
+  }
+  .label-m {
+    @apply text-[16px] leading-[20px];
+  }
+  .label-l {
+    @apply text-[18px] leading-[24px];
+  }
+  .paragraph-xs {
+    @apply text-[12px] leading-[20px];
+  }
+  .paragraph-s {
+    @apply text-[14px] leading-[20px];
+  }
+  .paragraph-m {
+    @apply text-[16px] leading-[24px];
+  }
+  .paragraph-l {
+    @apply text-[18px] leading-[28px];
+  }
+  .heading-xs {
+    @apply text-[20px] leading-[28px];
+  }
+  .heading-s {
+    @apply text-[24px] leading-[32px];
+  }
+  .heading-m {
+    @apply text-[32px] leading-[40px];
+  }
+  .heading-l {
+    @apply text-[40px] leading-[52px];
+  }
+  .heading-xl {
+    @apply text-[52px] leading-[64px];
+  }
+  .heading-xxl {
+    @apply text-[96px] leading-[112px];
+  }
+}
