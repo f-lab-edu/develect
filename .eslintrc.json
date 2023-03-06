@@ -20,7 +20,13 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": [".next/", "node_modules/", "next.config.js"],
+  "ignorePatterns": [
+    ".next/",
+    "node_modules/",
+    "next.config.js",
+    "postcss.config.js",
+    "tailwind.config.js"
+  ],
   "rules": {
     "import/prefer-default-export": "off",
     "no-console": "off",
@@ -29,7 +35,9 @@
     "@typescript-eslint/no-unused-vars": ["error"],
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/function-component-definition": "off",
+    "react/require-default-props": "off"
   },
   "settings": {
     "import/parsers": {
