@@ -10,6 +10,16 @@ module.exports = {
         md: '600px', // Tablet
         lg: '1200px', // Desktop
       },
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          // max-width
+          sm: '100%',
+          md: '100%',
+          lg: '1280px',
+        },
+      },
       fontFamily: {
         sans: ['var(--font-pretendard)', ...fontFamily.sans],
       },
