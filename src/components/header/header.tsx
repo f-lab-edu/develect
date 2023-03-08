@@ -1,7 +1,6 @@
 import { Button } from '@/components/button'
+import { GlobalNavigation } from '@/components/header/global-navigation'
 import { Logo } from '@/components/logo'
-
-import { GlobalNavigation } from './global-navigation'
 
 export const Header = () => (
   <header className="sticky top-0 flex h-[var(--header-height)] items-center justify-between border-b border-b-gray-100 bg-white px-4 md:px-8">

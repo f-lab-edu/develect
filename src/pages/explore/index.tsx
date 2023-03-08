@@ -1,6 +1,5 @@
 import { BasicLayout } from '@/components/layouts/basic-layout'
-
-import { NextPageWithLayout } from '../_app'
+import { NextPageWithLayout } from '@/pages/_app'
 
 import type { ReactElement } from 'react'
 
