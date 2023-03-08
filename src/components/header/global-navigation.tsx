@@ -3,19 +3,19 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Routes, Navigation } from '@/lib/constants/routes'
 
-const navList: Navigation[] = [
-  {
-    href: Routes.ROOT,
-    label: '홈',
-  },
-  {
-    href: Routes.EXPLORE,
-    label: '탐색',
-  },
-]
-
 export const GlobalNavigation = () => {
   const { pathname } = useRouter()
+
+  const navList: Navigation[] = [
+    {
+      href: Routes.ROOT,
+      label: '홈',
+    },
+    {
+      href: Routes.EXPLORE,
+      label: '탐색',
+    },
+  ]
 
   return (
     <nav>
