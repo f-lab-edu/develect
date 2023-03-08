@@ -9,7 +9,7 @@ Dev+Elect
 
 ### Basic
 
-- Node.js v18.12.1
+- Node.js v16.19.1
 - Yarn berry v3.4.1
 - Typescript v4.9.5
 
