@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Routes } from '@/lib/routes'
+import { Routes } from '@/lib/constants/routes'
 import LogoImage from '@/public/svg/logos/logo.svg'
 
 type LogoSize = 'sm' | 'md' | 'lg'

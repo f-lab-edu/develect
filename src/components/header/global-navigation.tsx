@@ -1,8 +1,7 @@
 import classNames from 'classnames'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Routes } from '@/lib/routes'
-import type { Navigation } from '@/lib/routes/routes.interface'
+import { Routes, Navigation } from '@/lib/constants/routes'
 
 const navList: Navigation[] = [
   {
