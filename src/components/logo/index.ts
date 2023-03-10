@@ -1,1 +1,1 @@
-export { Logo } from './Logo'
+export { Logo } from '@/components/logo/Logo'
