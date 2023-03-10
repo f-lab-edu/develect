@@ -11,7 +11,8 @@
     "prettier:check": "prettier --check \"**/*.{ts,js,tsx,jsx,html,css,json,yaml,md}\"",
     "lint:fix": "eslint \"**/*.{ts,js,tsx,jsx}\" --fix",
     "lint:check": "eslint \"**/*.{ts,js,tsx,jsx}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prisma:generate": "dotenv -e .env.local pnpify prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^4.11.0",
