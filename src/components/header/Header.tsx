@@ -1,5 +1,5 @@
 import { Button } from '@/components/button'
-import { GlobalNavigation } from '@/components/header/global-navigation'
+import { GlobalNavigation } from '@/components/header/GlobalNavigation'
 import { Logo } from '@/components/logo'
 
 export const Header = () => (

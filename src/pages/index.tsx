@@ -1,5 +1,5 @@
 import { ReactElement, useEffect } from 'react'
-import { BasicLayout } from '@/components/layouts/basic-layout'
+import { BasicLayout } from '@/components/layouts/BasicLayout'
 import { NextPageWithLayout } from '@/pages/_app'
 
 const Home: NextPageWithLayout = () => {
