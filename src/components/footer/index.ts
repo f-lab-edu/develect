@@ -1,1 +1,1 @@
-export { Footer } from './footer'
+export { Footer } from '@/components/footer/Footer'

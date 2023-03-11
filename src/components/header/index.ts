@@ -1,2 +1,2 @@
-export { Header } from './header'
-export { GlobalNavigation } from './global-navigation'
+export { Header } from '@/components/header/Header'
+export { GlobalNavigation } from '@/components/header/GlobalNavigation'
