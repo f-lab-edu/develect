@@ -22,7 +22,7 @@ body {
   }
 }
 
-@layer typography {
+@layer components {
   .label-xs {
     @apply text-[12px] leading-[16px];
   }
