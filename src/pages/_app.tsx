@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import { Session } from 'next-auth'
 import { SessionProvider } from 'next-auth/react'
+import { pretendard } from '@/styles/font'
 
 import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
@@ -22,7 +23,9 @@ export default function MyApp({
 
   return (
     <SessionProvider session={session}>
-      {getLayout(<Component {...pageProps} />)}
+      <div className={`${pretendard.className} font-sans`}>
+        {getLayout(<Component {...pageProps} />)}
+      </div>
     </SessionProvider>
   )
 }

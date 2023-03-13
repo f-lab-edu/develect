@@ -17,6 +17,9 @@ body {
   .basic-grid {
     @apply grid grid-cols-4 gap-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-6;
   }
+  .header-container {
+    @apply sticky top-0 h-[var(--header-height)] border-b border-b-gray-100 bg-white px-4 md:px-8;
+  }
 }
 
 @layer typography {
