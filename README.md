@@ -21,12 +21,12 @@ Dev+Elect
 - Tailwind CSS
 - React Hook Form
 - Sentry
+- Next Auth
 
 ### Server
 
-- Express
 - MySQL
-- Passport
+- Prisma
 
 ### Etc.
 
