@@ -1,4 +1,5 @@
 import Link from 'next/link'
+
 import { Routes } from '@/lib/constants/routes'
 import LogoImage from '@/public/svg/logos/logo.svg'
 

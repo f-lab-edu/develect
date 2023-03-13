@@ -1,5 +1,6 @@
 import { BasicLayout } from '@/components/layouts/BasicLayout'
-import { NextPageWithLayout } from '@/pages/_app'
+
+import type { NextPageWithLayout } from '@/pages/_app'
 
 const Home: NextPageWithLayout = () => <div>Home</div>
 

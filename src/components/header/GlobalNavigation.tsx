@@ -1,6 +1,7 @@
 import classNames from 'classnames'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+
 import { Routes, Navigation } from '@/lib/constants/routes'
 
 export const GlobalNavigation = () => {

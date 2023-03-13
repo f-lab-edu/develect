@@ -1,4 +1,5 @@
 import { signIn } from 'next-auth/react'
+
 import { useQueryParam } from '@/hooks/useQueryParam'
 
 export const useSignInWithGoogle = () => {

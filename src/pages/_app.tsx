@@ -1,10 +1,11 @@
 import '@/styles/globals.css'
-import { Session } from 'next-auth'
 import { SessionProvider } from 'next-auth/react'
+
 import { pretendard } from '@/styles/font'
 
 import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
+import type { Session } from 'next-auth'
 import type { ReactElement, ReactNode } from 'react'
 
 export type NextPageWithLayout<P = object, IP = P> = NextPage<P, IP> & {

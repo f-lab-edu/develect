@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { signOut, useSession } from 'next-auth/react'
+
 import { Button } from '@/components/button'
 import { GlobalNavigation } from '@/components/header/GlobalNavigation'
 import { Logo } from '@/components/logo'

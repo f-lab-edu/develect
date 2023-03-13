@@ -1,4 +1,5 @@
 import classNames from 'classnames'
+
 import { Footer } from '@/components/footer'
 import { Logo } from '@/components/logo'
 

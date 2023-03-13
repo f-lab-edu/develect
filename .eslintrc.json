@@ -54,9 +54,34 @@
         ],
         "pathGroups": [
           {
-            "pattern": "@/**",
-            "group": "internal",
-            "position": "after"
+            "pattern": "@/components/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/page/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/modules/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/lib/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/styles/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/public/**",
+            "group": "parent",
+            "position": "before"
           }
         ],
         "alphabetize": {

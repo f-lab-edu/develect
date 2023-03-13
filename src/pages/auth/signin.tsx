@@ -1,8 +1,10 @@
 import classNames from 'classnames'
+
 import { AuthLayout } from '@/components/layouts/AuthLayout'
 import { useSignInWithGoogle } from '@/modules/auth/hooks/useSignInWithGoogle'
-import { NextPageWithLayout } from '@/pages/_app'
 import GoogleIcon from '@/public/svg/logos/google.svg'
+
+import type { NextPageWithLayout } from '@/pages/_app'
 
 const SignIn: NextPageWithLayout = () => {
   const { signInWithGoogle } = useSignInWithGoogle()
